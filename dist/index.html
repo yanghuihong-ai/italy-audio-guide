@@ -7,7 +7,7 @@
   <meta name="description" content="跟着游览路线，用中文听懂意大利的艺术、建筑与城市。">
   <title>耳游意大利 · 随身中文导览</title>
   <link rel="icon" type="image/svg+xml" href="icon.svg">
-  <link rel="stylesheet" href="style.css?v=warm-v3">
+  <link rel="stylesheet" href="style.css?v=art-v4">
   <link rel="apple-touch-icon" href="icon-192.png">
   <link rel="manifest" href="manifest.webmanifest">
 </head>
@@ -24,17 +24,17 @@
     <p>走近一件作品，也走进它的故事。</p>
   </section>
   <nav class="route-picker" aria-label="游览路线">
-    <div class="route-picker-heading"><span id="routesLabel">游览路线</span><span class="route-picker-note">58 个景点 · 中文语音</span></div>
+    <div class="route-picker-heading"><span id="routesLabel">游览路线</span><div class="route-scroll-tools"><span class="route-picker-note">左右滑动切换</span><button id="routeBack" aria-label="向左查看路线">←</button><button id="routeForward" aria-label="向右查看路线">→</button></div></div>
     <div id="routeTabs" class="route-tabs" role="tablist" aria-labelledby="routesLabel"></div>
   </nav>
   <div id="routePanel" role="tabpanel" aria-labelledby="route-tab-0" tabindex="0">
   <main>
     <aside class="route" aria-label="沿途景点">
-      <div class="route-heading"><h2 id="city"></h2><span id="stopCount" class="count"></span></div>
+      <span class="stop-label">沿途景点</span><div class="route-heading"><h2 id="city"></h2><span id="stopCount" class="count"></span></div>
       <p id="dayNote" class="day-note"></p>
       <div id="plans"></div>
       <ol id="stops"></ol>
-      <div class="offline-box"><button id="downloadDay" disabled>↓ 保存本路线音频</button><small id="downloadInfo" role="status">准备离线功能…</small></div>
+      <div class="offline-box"><button id="downloadDay" disabled>↓ 保存本路线音频与配图</button><small id="downloadInfo" role="status">准备离线功能…</small></div>
     </aside>
     <section class="guide" id="guide" tabindex="-1" aria-label="景点讲解"></section>
   </main>
@@ -53,14 +53,20 @@
     <span class="eyebrow">使用指南</span><h2 id="helpTitle">戴上耳机，慢慢看。</h2>
     <p>选择路线和景点，再点击播放。讲解按看点分段，点击标题可以切换段落，也可以用播放器的上一段／下一段。</p>
     <p>讲解采用自然普通话合成语音，包含历史背景、人物故事和名作解读。支持暂停、拖动进度、调速和本站连播。切换景点时停止播放，到达下一站后再开始。</p>
-    <p>出发前连上 Wi-Fi，选择路线并点“保存本路线音频”。同一设备和浏览器保存成功后，可离线打开文字与音频；地图和资料链接需要网络。</p>
+    <p>出发前连上 Wi-Fi，选择路线并点“保存本路线音频与配图”。同一设备和浏览器保存成功后，可离线打开文字、音频与配图；地图和资料链接需要网络。</p>
     <p>iPhone：用 Safari 打开，点分享 → 添加到主屏幕。安卓：在 Chrome 菜单中选择添加到主屏幕／安装。添加后请在主屏幕打开的 App 中再确认离线保存状态。</p>
     <p>播放后可尝试锁屏继续听，具体取决于手机与浏览器。首次使用请在实际手机上试播；无需麦克风权限。不要在狭窄楼梯或过马路时操作屏幕。</p>
     <p id="offlineStatus">正在检查离线准备状态…</p>
     <p class="small">本导览不包含门票或预约服务。讲解为根据官方资料撰写的中文导览，并非场馆官方音频；展陈与入场规则以现场为准。参考资料位于各景点底部。</p>
   </dialog>
+  <dialog id="imageDialog" class="image-dialog" aria-labelledby="imageTitle">
+    <div class="image-dialog-heading"><h2 id="imageTitle"></h2><button id="closeImage" class="dialog-close" aria-label="关闭大图">×</button></div>
+    <img id="largeImage" alt="">
+    <p id="imageCredit" class="small"></p>
+  </dialog>
   <script src="data.js?v=public-v1"></script>
+  <script src="image-manifest.js?v=art-v4"></script>
   <script src="audio-manifest.js?v=public-v1"></script>
-  <script src="app.js?v=warm-v3"></script>
+  <script src="app.js?v=art-v4"></script>
 </body>
 </html>

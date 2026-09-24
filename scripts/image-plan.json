@@ -1,0 +1,1204 @@
+{
+  "assets": {
+    "doge": {
+      "title": "总督宫",
+      "query": "Doge Palace Venice facade",
+      "kind": "scene"
+    },
+    "bookshop": {
+      "title": "沉船书店",
+      "query": "Libreria Acqua Alta Venice books",
+      "kind": "scene"
+    },
+    "sighs": {
+      "title": "叹息桥",
+      "query": "Bridge Sighs Venice exterior",
+      "kind": "scene"
+    },
+    "sanmarcoSquare": {
+      "title": "圣马可广场",
+      "query": "Piazza San Marco Venice panorama",
+      "kind": "scene"
+    },
+    "campanile": {
+      "title": "圣马可钟楼",
+      "query": "Campanile San Marco Venice",
+      "kind": "scene"
+    },
+    "sanmarco": {
+      "title": "圣马可的遗体抵达威尼斯 · 大教堂立面马赛克",
+      "query": "Saint Mark Basilica Venice facade",
+      "kind": "scene"
+    },
+    "fenice": {
+      "title": "凤凰歌剧院观众厅",
+      "query": "Teatro La Fenice interior auditorium",
+      "kind": "scene"
+    },
+    "accademiaBridge": {
+      "title": "学院桥与大运河",
+      "query": "Ponte Accademia Grand Canal Venice",
+      "kind": "scene"
+    },
+    "rialto": {
+      "title": "里亚托桥",
+      "query": "Rialto bridge Venice",
+      "kind": "scene"
+    },
+    "geremia": {
+      "title": "圣耶利米教堂",
+      "query": "San Geremia Venice church",
+      "kind": "scene"
+    },
+    "scalziBridge": {
+      "title": "赤足桥",
+      "query": "Ponte degli Scalzi Venice",
+      "kind": "scene"
+    },
+    "scalzi": {
+      "title": "纳匝肋圣母教堂内部",
+      "query": "Santa Maria Nazareth Scalzi Venice interior",
+      "kind": "scene"
+    },
+    "constitution": {
+      "title": "宪法桥",
+      "query": "Ponte Costituzione Venice Calatrava",
+      "kind": "scene"
+    },
+    "croce": {
+      "title": "圣十字圣殿内部",
+      "query": "Santa Croce Florence interior nave",
+      "kind": "scene"
+    },
+    "signoria": {
+      "title": "领主广场",
+      "query": "Piazza Signoria Florence panorama",
+      "kind": "scene"
+    },
+    "pontevecchio": {
+      "title": "老桥与桥上的瓦萨里走廊",
+      "query": "Ponte Vecchio Florence bridge",
+      "kind": "scene"
+    },
+    "michelangeloSquare": {
+      "title": "从米开朗基罗广场看佛罗伦萨",
+      "query": "Florence panorama Piazzale Michelangelo",
+      "kind": "scene"
+    },
+    "miniato": {
+      "title": "圣米尼亚托大殿立面",
+      "query": "San Miniato Monte facade",
+      "kind": "scene"
+    },
+    "vecchio": {
+      "title": "旧宫",
+      "query": "\"Palazzo Vecchio\" Florence -CoA -Escuts -Rijksmuseum",
+      "kind": "scene"
+    },
+    "duomoMuseum": {
+      "title": "大教堂博物馆的立面陈列",
+      "query": "Museo Opera Duomo Firenze Salone Paradiso",
+      "kind": "scene"
+    },
+    "reparata": {
+      "title": "圣雷帕拉塔遗址的地面马赛克",
+      "query": "\"Santa Reparata\" mosaico",
+      "kind": "scene"
+    },
+    "dome": {
+      "title": "百花大教堂穹顶",
+      "query": "Brunelleschi dome Florence exterior",
+      "kind": "scene"
+    },
+    "giotto": {
+      "title": "乔托钟楼",
+      "query": "Giotto Campanile Florence",
+      "kind": "scene"
+    },
+    "florenceBaptistery": {
+      "title": "圣若望洗礼堂",
+      "query": "Florence Baptistery exterior",
+      "kind": "scene"
+    },
+    "accademia": {
+      "title": "《大卫》",
+      "query": "intitle:\"David\" intitle:\"Michelangelo\" -replica -head -detail",
+      "kind": "art"
+    },
+    "bargello": {
+      "title": "巴杰罗博物馆庭院",
+      "query": "Bargello courtyard Florence",
+      "kind": "scene"
+    },
+    "uffizi": {
+      "title": "乌菲兹美术馆建筑群",
+      "query": "Uffizi courtyard Florence",
+      "kind": "scene"
+    },
+    "pisaTower": {
+      "title": "比萨斜塔",
+      "query": "Leaning Tower Pisa",
+      "kind": "scene"
+    },
+    "pisaCathedral": {
+      "title": "比萨主教座堂",
+      "query": "Pisa Cathedral facade",
+      "kind": "scene"
+    },
+    "miracles": {
+      "title": "奇迹广场建筑群",
+      "query": "Piazza Miracoli Pisa panorama",
+      "kind": "scene"
+    },
+    "pisaBaptistery": {
+      "title": "比萨洗礼堂内部",
+      "query": "Pisa Baptistery interior",
+      "kind": "scene"
+    },
+    "sienaCathedral": {
+      "title": "锡耶纳大教堂内部",
+      "query": "Siena Cathedral interior nave",
+      "kind": "scene"
+    },
+    "piccolomini": {
+      "title": "平图里基奥：皮科洛米尼图书馆壁画",
+      "query": "Piccolomini Library frescoes Pinturicchio interior",
+      "kind": "art"
+    },
+    "campo": {
+      "title": "田野广场",
+      "query": "Piazza Campo Siena panorama",
+      "kind": "scene"
+    },
+    "meta": {
+      "title": "Meta：通往海边的道路与海岸",
+      "query": "intitle:\"Meta\" beach",
+      "kind": "scene"
+    },
+    "marina": {
+      "title": "卡普里大港",
+      "query": "Marina Grande Capri harbour",
+      "kind": "scene"
+    },
+    "anacapri": {
+      "title": "阿纳卡普里的红屋街景",
+      "query": "Anacapri street",
+      "kind": "scene"
+    },
+    "bluegrotto": {
+      "title": "蓝洞内部",
+      "query": "\"Grotta Azzurra\" Capri -painting -Monnier -Bierstadt",
+      "kind": "scene"
+    },
+    "zagara": {
+      "title": "柠檬庭院的农业背景：索伦托柠檬（非餐厅实拍）",
+      "query": "Sorrento lemons trees",
+      "kind": "context"
+    },
+    "solaro": {
+      "title": "从索拉罗山看卡普里",
+      "query": "Monte Solaro Capri view",
+      "kind": "scene"
+    },
+    "augustus": {
+      "title": "Via Krupp 山路",
+      "query": "Via Krupp Capri",
+      "kind": "scene"
+    },
+    "capriTown": {
+      "title": "卡普里镇小广场",
+      "query": "Piazzetta Capri",
+      "kind": "scene"
+    },
+    "pompeii": {
+      "title": "庞贝公共广场与维苏威火山",
+      "query": "Pompeii forum Vesuvius",
+      "kind": "scene"
+    },
+    "sorrento": {
+      "title": "索伦托老城街道",
+      "query": "\"Sorrento\" \"Via San Cesareo\"",
+      "kind": "scene"
+    },
+    "villaComunale": {
+      "title": "从 Villa Comunale 观景台俯瞰海岸",
+      "query": "Villa Comunale Sorrento view",
+      "kind": "scene"
+    },
+    "borghese": {
+      "title": "博尔盖塞美术馆",
+      "query": "Galleria Borghese facade Rome",
+      "kind": "scene"
+    },
+    "colosseum": {
+      "title": "罗马斗兽场",
+      "query": "Colosseum exterior Rome",
+      "kind": "scene"
+    },
+    "clemente": {
+      "title": "圣克莱门特后殿马赛克（局部）",
+      "query": "\"San Clemente\" abside Roma -MET",
+      "kind": "art"
+    },
+    "forum": {
+      "title": "古罗马广场",
+      "query": "Roman Forum panorama",
+      "kind": "scene"
+    },
+    "veneziaSquare": {
+      "title": "维托里亚诺纪念建筑",
+      "query": "Vittoriano Rome monument",
+      "kind": "scene"
+    },
+    "navona": {
+      "title": "纳沃纳广场",
+      "query": "Piazza Navona Rome panorama",
+      "kind": "scene"
+    },
+    "trevi": {
+      "title": "特雷维喷泉中央的大洋神俄刻阿诺斯",
+      "query": "Trevi Fountain Rome",
+      "kind": "scene"
+    },
+    "spanish": {
+      "title": "西班牙台阶",
+      "query": "Spanish Steps Rome",
+      "kind": "scene"
+    },
+    "vatican": {
+      "title": "梵蒂冈博物馆庭院",
+      "query": "Vatican Museums Pigna courtyard",
+      "kind": "scene"
+    },
+    "sistine": {
+      "title": "西斯廷教堂天顶画",
+      "query": "\"Sistine Chapel ceiling\" -exhibition -Leeds -detail",
+      "kind": "art"
+    },
+    "peter": {
+      "title": "圣彼得大教堂",
+      "query": "Saint Peter Basilica facade Vatican",
+      "kind": "scene"
+    },
+    "angeloBridge": {
+      "title": "圣天使桥",
+      "query": "Ponte Sant Angelo Rome angels bridge",
+      "kind": "scene"
+    },
+    "angelo": {
+      "title": "圣天使城堡",
+      "query": "Castel Sant Angelo Rome exterior",
+      "kind": "scene"
+    },
+    "dogeCourtyard": {
+      "title": "总督宫庭院中的青铜井栏",
+      "query": "Palazzo Ducale Venice courtyard",
+      "kind": "scene"
+    },
+    "paradiso": {
+      "title": "《天堂》· 丁托列托及其工作室",
+      "query": "Tintoretto Paradiso Palazzo Ducale painting",
+      "kind": "art"
+    },
+    "lionMouth": {
+      "title": "总督宫的狮口投递口",
+      "query": "Bocca leone Palazzo Ducale denunciations",
+      "kind": "scene"
+    },
+    "wingedLion": {
+      "title": "圣马可柱上的有翼狮子",
+      "query": "Lion Venice column San Marco",
+      "kind": "art"
+    },
+    "markMosaic": {
+      "title": "圣马可大教堂的金色马赛克",
+      "query": "San Marco basilica Venice interior dome mosaics",
+      "kind": "art"
+    },
+    "markHorses": {
+      "title": "圣马可四马原件（博物馆内）",
+      "query": "\"San Marco\" horses -stamp -facade -replica",
+      "kind": "art"
+    },
+    "palaOro": {
+      "title": "金色祭坛屏 Pala d’Oro",
+      "query": "Pala d Oro San Marco",
+      "kind": "art"
+    },
+    "salute": {
+      "title": "安康圣母圣殿",
+      "query": "Santa Maria Salute Venice Grand Canal",
+      "kind": "scene"
+    },
+    "danteTomb": {
+      "title": "但丁纪念空墓",
+      "query": "Dante cenotaph Santa Croce Florence",
+      "kind": "art"
+    },
+    "michelangeloTomb": {
+      "title": "米开朗基罗墓碑",
+      "query": "Michelangelo tomb Santa Croce Florence Vasari",
+      "kind": "art"
+    },
+    "giottoFrancis": {
+      "title": "圣十字巴尔迪礼拜堂：圣方济各之死",
+      "query": "Giotto Bardi death Saint Francis fresco",
+      "kind": "art"
+    },
+    "cimabueCross": {
+      "title": "《十字架》· 契马布埃（圣十字）",
+      "query": "Cimabue \"Santa Croce\" crucifix",
+      "kind": "art"
+    },
+    "perseus": {
+      "title": "《珀耳修斯与美杜莎》· 切利尼",
+      "query": "Cellini Perseus Medusa Loggia Lanzi statue",
+      "kind": "art"
+    },
+    "davidCopy": {
+      "title": "旧宫门前的《大卫》复制品",
+      "query": "David replica Piazza Signoria Palazzo Vecchio",
+      "kind": "art"
+    },
+    "miniatoInside": {
+      "title": "圣米尼亚托大殿内部",
+      "query": "San Miniato Monte interior",
+      "kind": "scene"
+    },
+    "vecchioCourt": {
+      "title": "旧宫米开洛佐庭院",
+      "query": "Palazzo Vecchio Michelozzo courtyard",
+      "kind": "scene"
+    },
+    "fiveHundred": {
+      "title": "旧宫五百人大厅",
+      "query": "\"Salone dei Cinquecento\"",
+      "kind": "scene"
+    },
+    "gatesParadise": {
+      "title": "《天堂之门》· 吉贝尔蒂",
+      "query": "Ghiberti Gates Paradise original Museo Opera Duomo",
+      "kind": "art"
+    },
+    "bandiniPieta": {
+      "title": "《班迪尼圣殇》· 米开朗基罗",
+      "query": "Michelangelo Bandini Pieta Florence",
+      "kind": "art"
+    },
+    "florenceJudgement": {
+      "title": "穹顶《最后的审判》· 瓦萨里与祖卡里",
+      "query": "Florence dome Last Judgment Vasari Zuccari fresco",
+      "kind": "art"
+    },
+    "domeView": {
+      "title": "从百花大教堂高处眺望城市",
+      "query": "Florence view from Duomo dome",
+      "kind": "scene"
+    },
+    "baptisteryMosaic": {
+      "title": "圣若望洗礼堂穹顶马赛克",
+      "query": "\"Battistero\" \"Firenze\" mosaici",
+      "kind": "art"
+    },
+    "prisoners": {
+      "title": "《囚徒》· 米开朗基罗",
+      "query": "Michelangelo Awakening Slave Accademia",
+      "kind": "art"
+    },
+    "donatelloDavid": {
+      "title": "青铜《大卫》· 多纳泰罗",
+      "query": "Donatello David bronze Bargello",
+      "kind": "art"
+    },
+    "verrocchioDavid": {
+      "title": "《大卫》· 韦罗基奥",
+      "query": "Verrocchio David Bargello statue",
+      "kind": "art"
+    },
+    "venus": {
+      "title": "《维纳斯的诞生》· 波提切利",
+      "query": "Botticelli Birth Venus Google Art Project",
+      "kind": "art"
+    },
+    "primavera": {
+      "title": "《春》· 波提切利",
+      "query": "Botticelli Primavera painting Google Art Project",
+      "kind": "art"
+    },
+    "annunciation": {
+      "title": "《天使报喜》· 达·芬奇",
+      "query": "Leonardo Annunciation Uffizi painting",
+      "kind": "art"
+    },
+    "doni": {
+      "title": "《多尼圆画》· 米开朗基罗",
+      "query": "Michelangelo Doni Tondo",
+      "kind": "art"
+    },
+    "uffiziHall": {
+      "title": "乌菲兹建筑群内的长廊",
+      "query": "Uffizi gallery corridor interior",
+      "kind": "scene"
+    },
+    "pisaNave": {
+      "title": "比萨主教座堂中殿",
+      "query": "Pisa Cathedral interior nave",
+      "kind": "scene"
+    },
+    "gioPulpit": {
+      "title": "比萨主教座堂讲坛 · 乔瓦尼·皮萨诺",
+      "query": "\"Giovanni Pisano\" pulpito Pisa -replica",
+      "kind": "art"
+    },
+    "nicolaPulpit": {
+      "title": "比萨洗礼堂讲坛 · 尼古拉·皮萨诺",
+      "query": "Nicola Pisano pulpit Pisa Baptistery",
+      "kind": "art"
+    },
+    "sienaUnfinished": {
+      "title": "锡耶纳未完成的新大教堂 Facciatone",
+      "query": "Siena Facciatone -museo -testina -firenze",
+      "kind": "scene"
+    },
+    "sienaFloor": {
+      "title": "锡耶纳大教堂地面镶嵌画",
+      "query": "Siena Cathedral floor inlay",
+      "kind": "art"
+    },
+    "piccoBooks": {
+      "title": "皮科洛米尼图书馆的装饰手抄本",
+      "query": "\"libreria piccolomini\" corali",
+      "kind": "art"
+    },
+    "palio": {
+      "title": "田野广场上的赛马节",
+      "query": "Palio Siena race Piazza Campo",
+      "kind": "scene"
+    },
+    "villaSanMichele": {
+      "title": "圣米凯莱别墅 · 阿克塞尔·蒙特的故居",
+      "query": "Villa San Michele Anacapri garden",
+      "kind": "scene"
+    },
+    "pompeiiStreet": {
+      "title": "庞贝街道与踏脚石",
+      "query": "Pompeii street stepping stones",
+      "kind": "scene"
+    },
+    "pompeiiHouse": {
+      "title": "庞贝侬神之家中庭",
+      "query": "House Faun Pompeii atrium",
+      "kind": "scene"
+    },
+    "thermopolium": {
+      "title": "庞贝热食店",
+      "query": "Pompeii thermopolium counter",
+      "kind": "scene"
+    },
+    "pompeiiCasts": {
+      "title": "庞贝遇难者石膏铸型",
+      "query": "Pompeii plaster casts victims",
+      "kind": "scene"
+    },
+    "scipione": {
+      "title": "《西皮奥内·博尔盖塞半身像》· 贝尼尼",
+      "query": "Bernini Scipione Borghese bust",
+      "kind": "art"
+    },
+    "apolloDaphne": {
+      "title": "《阿波罗与达芙妮》· 贝尼尼",
+      "query": "Apollo Daphne Bernini Borghese sculpture",
+      "kind": "art"
+    },
+    "proserpina": {
+      "title": "《普洛塞庇娜的掠夺》· 贝尼尼",
+      "query": "Rape Proserpina Bernini Borghese sculpture",
+      "kind": "art"
+    },
+    "berniniDavid": {
+      "title": "《大卫》· 贝尼尼",
+      "query": "David Bernini -Hermaphroditus -handbook",
+      "kind": "art"
+    },
+    "caravaggioDavid": {
+      "title": "《大卫与歌利亚的头颅》· 卡拉瓦乔",
+      "query": "\"David with the Head of Goliath\" Caravaggio -Vienna -Zoffany -Loth -Varotari",
+      "kind": "art"
+    },
+    "colosseumInside": {
+      "title": "斗兽场看台与竞技场",
+      "query": "Colosseum interior arena panorama",
+      "kind": "scene"
+    },
+    "hypogeum": {
+      "title": "斗兽场地下结构",
+      "query": "Colosseum hypogeum underground",
+      "kind": "scene"
+    },
+    "sisinnius": {
+      "title": "西西尼乌斯传说壁画 · 圣克莱门特下层教堂",
+      "query": "Sisinnio Clemente",
+      "kind": "art"
+    },
+    "clementeLower": {
+      "title": "圣克莱门特下层教堂",
+      "query": "San Clemente lower basilica Rome",
+      "kind": "scene"
+    },
+    "mithraeum": {
+      "title": "圣克莱门特地下密特拉神殿",
+      "query": "San Clemente Mithraeum altar",
+      "kind": "scene"
+    },
+    "caesarTemple": {
+      "title": "凯撒神庙遗址",
+      "query": "Temple Caesar Roman Forum",
+      "kind": "scene"
+    },
+    "maxentius": {
+      "title": "马克森提乌斯会堂遗址",
+      "query": "Basilica Maxentius Roman Forum",
+      "kind": "scene"
+    },
+    "vesta": {
+      "title": "维斯塔神庙",
+      "query": "Temple Vesta Roman Forum",
+      "kind": "scene"
+    },
+    "fourRivers": {
+      "title": "四河喷泉 · 贝尼尼",
+      "query": "Fontana Quattro Fiumi Piazza Navona",
+      "kind": "art"
+    },
+    "barcaccia": {
+      "title": "小舟喷泉",
+      "query": "Fontana Barcaccia Rome",
+      "kind": "art"
+    },
+    "laocoon": {
+      "title": "《拉奥孔与他的儿子们》",
+      "query": "Laocoon sons Vatican sculpture",
+      "kind": "art"
+    },
+    "mapsGallery": {
+      "title": "梵蒂冈地图长廊",
+      "query": "Gallery Maps Vatican interior",
+      "kind": "art"
+    },
+    "athens": {
+      "title": "《雅典学院》· 拉斐尔",
+      "query": "Raphael School Athens fresco",
+      "kind": "art"
+    },
+    "creation": {
+      "title": "《创造亚当》· 米开朗基罗",
+      "query": "Michelangelo Creation Adam fresco",
+      "kind": "art"
+    },
+    "lastJudgement": {
+      "title": "《最后的审判》· 米开朗基罗（西斯廷）",
+      "query": "\"Last Judgement\" Michelangelo -Wellcome -detail -engraving",
+      "kind": "art"
+    },
+    "peterInside": {
+      "title": "圣彼得大教堂中殿",
+      "query": "Saint Peter Basilica interior nave",
+      "kind": "scene"
+    },
+    "vaticanPieta": {
+      "title": "《圣殇》· 米开朗基罗（圣彼得）",
+      "query": "Michelangelo Pieta Vatican Saint Peter",
+      "kind": "art"
+    },
+    "baldachin": {
+      "title": "圣彼得青铜华盖 · 贝尼尼",
+      "query": "Bernini Baldachin Saint Peter Basilica",
+      "kind": "art"
+    },
+    "peterDome": {
+      "title": "圣彼得大教堂穹顶内部",
+      "query": "Saint Peter Basilica dome interior",
+      "kind": "scene"
+    },
+    "peterSquare": {
+      "title": "圣彼得广场柱廊",
+      "query": "Saint Peter Square colonnade Vatican",
+      "kind": "scene"
+    },
+    "angelCross": {
+      "title": "圣天使桥上持十字架的天使",
+      "query": "Ponte Sant Angelo Angel Cross Ferrata",
+      "kind": "art"
+    }
+  },
+  "chapters": {
+    "doge-0": [
+      "doge"
+    ],
+    "doge-1": [
+      "dogeCourtyard"
+    ],
+    "doge-2": [
+      "sighs"
+    ],
+    "doge-3": [
+      "paradiso"
+    ],
+    "doge-4": [
+      "lionMouth"
+    ],
+    "bookshop-0": [
+      "bookshop"
+    ],
+    "bookshop-1": [
+      "bookshop"
+    ],
+    "sighs-0": [
+      "sighs"
+    ],
+    "sighs-1": [
+      "sighs"
+    ],
+    "sanmarcoSquare-0": [
+      "wingedLion"
+    ],
+    "sanmarcoSquare-1": [
+      "sanmarcoSquare"
+    ],
+    "campanile-0": [
+      "campanile"
+    ],
+    "campanile-1": [
+      "campanile"
+    ],
+    "sanmarco-0": [
+      "sanmarco"
+    ],
+    "sanmarco-1": [
+      "markMosaic"
+    ],
+    "sanmarco-2": [
+      "markMosaic"
+    ],
+    "sanmarco-3": [
+      "markHorses"
+    ],
+    "sanmarco-4": [
+      "markHorses",
+      "palaOro"
+    ],
+    "fenice-0": [
+      "fenice"
+    ],
+    "fenice-1": [
+      "fenice"
+    ],
+    "fenice-2": [
+      "fenice"
+    ],
+    "accademiaBridge-0": [
+      "salute"
+    ],
+    "accademiaBridge-1": [
+      "accademiaBridge"
+    ],
+    "rialto-0": [
+      "rialto"
+    ],
+    "rialto-1": [
+      "rialto"
+    ],
+    "geremia-0": [
+      "geremia"
+    ],
+    "geremia-1": [
+      "geremia"
+    ],
+    "scalziBridge-0": [
+      "scalziBridge"
+    ],
+    "scalziBridge-1": [
+      "scalziBridge"
+    ],
+    "scalzi-0": [
+      "scalzi"
+    ],
+    "scalzi-1": [
+      "scalzi"
+    ],
+    "constitution-0": [
+      "constitution"
+    ],
+    "constitution-1": [
+      "constitution"
+    ],
+    "croce-0": [
+      "danteTomb"
+    ],
+    "croce-1": [
+      "croce"
+    ],
+    "croce-2": [
+      "michelangeloTomb"
+    ],
+    "croce-3": [
+      "giottoFrancis"
+    ],
+    "croce-4": [
+      "cimabueCross"
+    ],
+    "signoria-0": [
+      "davidCopy",
+      "perseus"
+    ],
+    "signoria-1": [
+      "signoria"
+    ],
+    "pontevecchio-0": [
+      "pontevecchio"
+    ],
+    "pontevecchio-1": [
+      "pontevecchio"
+    ],
+    "michelangeloSquare-0": [
+      "michelangeloSquare"
+    ],
+    "michelangeloSquare-1": [
+      "michelangeloSquare"
+    ],
+    "miniato-0": [
+      "miniato"
+    ],
+    "miniato-1": [
+      "miniato"
+    ],
+    "miniato-2": [
+      "miniatoInside"
+    ],
+    "vecchio-0": [
+      "vecchio"
+    ],
+    "vecchio-1": [
+      "vecchioCourt"
+    ],
+    "vecchio-2": [
+      "fiveHundred"
+    ],
+    "vecchio-3": [
+      "fiveHundred"
+    ],
+    "vecchio-4": [
+      "signoria"
+    ],
+    "duomoMuseum-0": [
+      "gatesParadise"
+    ],
+    "duomoMuseum-1": [
+      "duomoMuseum"
+    ],
+    "duomoMuseum-2": [
+      "gatesParadise"
+    ],
+    "duomoMuseum-3": [
+      "bandiniPieta"
+    ],
+    "duomoMuseum-4": [
+      "bandiniPieta"
+    ],
+    "reparata-0": [
+      "reparata"
+    ],
+    "reparata-1": [
+      "reparata"
+    ],
+    "dome-0": [
+      "dome"
+    ],
+    "dome-1": [
+      "dome"
+    ],
+    "dome-2": [
+      "florenceJudgement"
+    ],
+    "dome-3": [
+      "domeView"
+    ],
+    "dome-4": [
+      "dome",
+      "florenceJudgement"
+    ],
+    "giotto-0": [
+      "giotto"
+    ],
+    "giotto-1": [
+      "giotto"
+    ],
+    "florenceBaptistery-0": [
+      "florenceBaptistery"
+    ],
+    "florenceBaptistery-1": [
+      "florenceBaptistery"
+    ],
+    "florenceBaptistery-2": [
+      "baptisteryMosaic"
+    ],
+    "accademia-0": [
+      "accademia"
+    ],
+    "accademia-1": [
+      "prisoners"
+    ],
+    "accademia-2": [
+      "accademia"
+    ],
+    "accademia-3": [
+      "accademia"
+    ],
+    "accademia-4": [
+      "prisoners"
+    ],
+    "bargello-0": [
+      "accademia",
+      "donatelloDavid",
+      "verrocchioDavid"
+    ],
+    "bargello-1": [
+      "bargello"
+    ],
+    "bargello-2": [
+      "donatelloDavid"
+    ],
+    "bargello-3": [
+      "bargello"
+    ],
+    "uffizi-0": [
+      "uffizi"
+    ],
+    "uffizi-1": [
+      "uffiziHall"
+    ],
+    "uffizi-2": [
+      "venus"
+    ],
+    "uffizi-3": [
+      "primavera"
+    ],
+    "uffizi-4": [
+      "annunciation"
+    ],
+    "uffizi-5": [
+      "primavera"
+    ],
+    "uffizi-6": [
+      "venus"
+    ],
+    "uffizi-7": [
+      "annunciation",
+      "doni"
+    ],
+    "uffizi-8": [
+      "venus",
+      "annunciation",
+      "doni"
+    ],
+    "pisaTower-0": [
+      "pisaTower"
+    ],
+    "pisaTower-1": [
+      "pisaTower"
+    ],
+    "pisaCathedral-0": [
+      "pisaCathedral"
+    ],
+    "pisaCathedral-1": [
+      "pisaNave"
+    ],
+    "pisaCathedral-2": [
+      "gioPulpit"
+    ],
+    "miracles-0": [
+      "miracles"
+    ],
+    "miracles-1": [
+      "miracles"
+    ],
+    "pisaBaptistery-0": [
+      "nicolaPulpit",
+      "gioPulpit"
+    ],
+    "pisaBaptistery-1": [
+      "pisaBaptistery"
+    ],
+    "pisaBaptistery-2": [
+      "nicolaPulpit"
+    ],
+    "sienaCathedral-0": [
+      "sienaUnfinished"
+    ],
+    "sienaCathedral-1": [
+      "sienaCathedral"
+    ],
+    "sienaCathedral-2": [
+      "sienaFloor"
+    ],
+    "piccolomini-0": [
+      "piccolomini"
+    ],
+    "piccolomini-1": [
+      "piccolomini"
+    ],
+    "piccolomini-2": [
+      "piccoBooks"
+    ],
+    "campo-0": [
+      "palio"
+    ],
+    "campo-1": [
+      "campo"
+    ],
+    "meta-0": [
+      "meta"
+    ],
+    "meta-1": [
+      "meta"
+    ],
+    "marina-0": [
+      "marina"
+    ],
+    "marina-1": [
+      "marina"
+    ],
+    "anacapri-0": [
+      "villaSanMichele"
+    ],
+    "anacapri-1": [
+      "anacapri"
+    ],
+    "bluegrotto-0": [
+      "bluegrotto"
+    ],
+    "bluegrotto-1": [
+      "bluegrotto"
+    ],
+    "zagara-0": [
+      "zagara"
+    ],
+    "zagara-1": [
+      "zagara"
+    ],
+    "solaro-0": [
+      "solaro"
+    ],
+    "solaro-1": [
+      "solaro"
+    ],
+    "augustus-0": [
+      "augustus"
+    ],
+    "augustus-1": [
+      "augustus"
+    ],
+    "capriTown-0": [
+      "capriTown"
+    ],
+    "capriTown-1": [
+      "capriTown"
+    ],
+    "pompeii-0": [
+      "pompeii"
+    ],
+    "pompeii-1": [
+      "pompeiiStreet"
+    ],
+    "pompeii-2": [
+      "pompeii"
+    ],
+    "pompeii-3": [
+      "pompeiiHouse"
+    ],
+    "pompeii-4": [
+      "thermopolium"
+    ],
+    "pompeii-5": [
+      "pompeiiCasts"
+    ],
+    "pompeii-6": [
+      "pompeii"
+    ],
+    "sorrento-0": [
+      "sorrento"
+    ],
+    "sorrento-1": [
+      "sorrento"
+    ],
+    "villaComunale-0": [
+      "villaComunale"
+    ],
+    "villaComunale-1": [
+      "villaComunale"
+    ],
+    "borghese-0": [
+      "scipione"
+    ],
+    "borghese-1": [
+      "borghese"
+    ],
+    "borghese-2": [
+      "apolloDaphne"
+    ],
+    "borghese-3": [
+      "proserpina"
+    ],
+    "borghese-4": [
+      "berniniDavid"
+    ],
+    "borghese-5": [
+      "apolloDaphne"
+    ],
+    "borghese-6": [
+      "caravaggioDavid"
+    ],
+    "colosseum-0": [
+      "colosseum"
+    ],
+    "colosseum-1": [
+      "colosseum"
+    ],
+    "colosseum-2": [
+      "colosseumInside"
+    ],
+    "colosseum-3": [
+      "hypogeum"
+    ],
+    "colosseum-4": [
+      "colosseumInside"
+    ],
+    "clemente-0": [
+      "sisinnius"
+    ],
+    "clemente-1": [
+      "clemente"
+    ],
+    "clemente-2": [
+      "clementeLower"
+    ],
+    "clemente-3": [
+      "mithraeum"
+    ],
+    "forum-0": [
+      "caesarTemple"
+    ],
+    "forum-1": [
+      "forum"
+    ],
+    "forum-2": [
+      "maxentius"
+    ],
+    "forum-3": [
+      "forum"
+    ],
+    "forum-4": [
+      "vesta"
+    ],
+    "veneziaSquare-0": [
+      "veneziaSquare"
+    ],
+    "veneziaSquare-1": [
+      "veneziaSquare"
+    ],
+    "navona-0": [
+      "fourRivers"
+    ],
+    "navona-1": [
+      "navona"
+    ],
+    "navona-2": [
+      "fourRivers"
+    ],
+    "trevi-0": [
+      "trevi"
+    ],
+    "trevi-1": [
+      "trevi"
+    ],
+    "spanish-0": [
+      "spanish"
+    ],
+    "spanish-1": [
+      "spanish",
+      "barcaccia"
+    ],
+    "vatican-0": [
+      "laocoon"
+    ],
+    "vatican-1": [
+      "vatican"
+    ],
+    "vatican-2": [
+      "laocoon"
+    ],
+    "vatican-3": [
+      "mapsGallery"
+    ],
+    "vatican-4": [
+      "athens"
+    ],
+    "vatican-5": [
+      "athens"
+    ],
+    "vatican-6": [
+      "mapsGallery"
+    ],
+    "sistine-0": [
+      "sistine",
+      "lastJudgement"
+    ],
+    "sistine-1": [
+      "sistine"
+    ],
+    "sistine-2": [
+      "creation"
+    ],
+    "sistine-3": [
+      "lastJudgement"
+    ],
+    "sistine-4": [
+      "creation",
+      "lastJudgement"
+    ],
+    "peter-0": [
+      "peter"
+    ],
+    "peter-1": [
+      "peterInside"
+    ],
+    "peter-2": [
+      "vaticanPieta"
+    ],
+    "peter-3": [
+      "baldachin"
+    ],
+    "peter-4": [
+      "peterDome"
+    ],
+    "peter-5": [
+      "vaticanPieta"
+    ],
+    "peter-6": [
+      "baldachin",
+      "peterSquare"
+    ],
+    "angeloBridge-0": [
+      "angelCross"
+    ],
+    "angeloBridge-1": [
+      "angeloBridge"
+    ],
+    "angelo-0": [
+      "angelo"
+    ],
+    "angelo-1": [
+      "angelo"
+    ]
+  }
+}
