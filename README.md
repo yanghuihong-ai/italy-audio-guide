@@ -20,5 +20,3 @@ GitHub Pages 的发布来源选择 GitHub Actions。推送至 main 分支后，�
 手机打开网站后，可添加到主屏幕。出发前使用 Wi-Fi 保存所需路线的音频；离线内容仅保存在同一设备、同一浏览器。锁屏播放取决于设备和浏览器。
 
 音频为神经网络合成普通话，不是场馆官方讲解或真人录音。开放情况和展陈以各场馆公告为准。
-
-照片：Dimitris Kamaras，Grand Canal from Ponte dell’Accademia，CC BY 2.0，已缩放与裁切。来源和许可链接见网站使用指南。
