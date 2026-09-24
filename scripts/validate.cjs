@@ -81,11 +81,15 @@ assert.equal(manifest.scope, './');
 async function checkWorker() {
   const handlers = {};
   const scope = 'https://example.github.io/italy-audio-guide/';
+  const coreSaved = new Map();
+  let coreNetworkOk = true;
   const worker = vm.createContext({
     URL, Response, Request,
+    caches: {open: async () => ({match: async file => coreSaved.get(String(file))?.clone(), put: async (file, response) => coreSaved.set(String(file), response.clone())})},
+    fetch: async () => new Response('offline page asset', {status: coreNetworkOk ? 200 : 503}),
     self: {location: {href: scope + 'sw.js'}, registration: {scope}, addEventListener: (name, fn) => handlers[name] = fn},
   });
-  vm.runInContext(read('sw.js') + '\nthis.rangeResponse=partial;', worker);
+  vm.runInContext(read('sw.js') + '\nthis.rangeResponse=partial;this.coreFiles=FILES;', worker);
   const makeResponse = () => new Response(new Uint8Array(100), {headers: {'Content-Type': 'audio/mpeg'}});
   for (const [range, status, length, contentRange] of [
     ['bytes=10-19', 206, 10, 'bytes 10-19/100'],
@@ -102,5 +106,24 @@ async function checkWorker() {
   let intercepted = false;
   handlers.fetch({request: new Request('https://example.github.io/another-app/audio/sample.mp3'), respondWith: () => intercepted = true});
   assert.equal(intercepted, false);
+  // Completion includes the app shell; unavailable files must never report success.
+  const checkCore = async () => {
+    let task, reply;
+    handlers.message({data: 'ITALIA_CACHE_CORE', ports: [{postMessage: value => reply = value}], waitUntil: promise => task = promise});
+    await task; return reply.ok;
+  };
+  coreNetworkOk = false;
+  assert.equal(await checkCore(), false);
+  coreNetworkOk = true;
+  assert.equal(await checkCore(), true);
+  assert.equal(coreSaved.size, worker.coreFiles.length);
+  for (const ref of html.matchAll(/(?:src|href)="([^"#]+)"/g)) {
+    if (/^(https?:|data:)/.test(ref[1])) continue;
+    assert(worker.coreFiles.includes('./' + ref[1]), 'Page asset missing from offline shell: ' + ref[1]);
+  }
+  coreSaved.delete('./index.html'); coreNetworkOk = false;
+  assert.equal(await checkCore(), false, 'Missing offline entry page cannot count as complete');
+  coreNetworkOk = true; assert.equal(await checkCore(), true);
 }
+
 checkWorker().then(() => console.log(`Validated ${seen.size} sights, ${DAYS.length} routes, ${count} matching audio clips (${(duration / 60).toFixed(1)} minutes), ${Object.keys(PICTURES.assets).length} licensed images, privacy and offline ranges.`)).catch(error => {console.error(error); process.exitCode = 1;});

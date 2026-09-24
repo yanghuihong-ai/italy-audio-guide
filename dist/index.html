@@ -7,7 +7,7 @@
   <meta name="description" content="跟着游览路线，用中文听懂意大利的艺术、建筑与城市。">
   <title>耳游意大利 · 随身中文导览</title>
   <link rel="icon" type="image/svg+xml" href="icon.svg">
-  <link rel="stylesheet" href="style.css?v=art-v4">
+  <link rel="stylesheet" href="style.css?v=offline-v5">
   <link rel="apple-touch-icon" href="icon-192.png">
   <link rel="manifest" href="manifest.webmanifest">
 </head>
@@ -20,11 +20,17 @@
     <button id="help" class="quiet">使用指南 <span aria-hidden="true">↗</span></button>
   </header>
   <section class="trip" aria-labelledby="welcome">
-    <h1 id="welcome">边走，边听。</h1>
-    <p>走近一件作品，也走进它的故事。</p>
+    <div class="trip-copy"><h1 id="welcome">边走，边听。</h1>
+    <p>走近一件作品，也走进它的故事。</p></div>
+    <div class="offline-all" aria-label="全部离线内容">
+      <div class="download-actions"><button id="downloadAll" disabled>↓ 下载全部</button><button id="pauseDownload" hidden>暂停</button></div>
+      <small id="downloadAllInfo" role="status">准备离线下载…</small>
+      <progress id="downloadProgress" max="100" value="0" aria-label="离线下载进度" hidden></progress>
+      <small id="downloadNotice" role="status" hidden></small>
+    </div>
   </section>
   <nav class="route-picker" aria-label="游览路线">
-    <div class="route-picker-heading"><span id="routesLabel">游览路线</span><div class="route-scroll-tools"><span class="route-picker-note">左右滑动切换</span><button id="routeBack" aria-label="向左查看路线">←</button><button id="routeForward" aria-label="向右查看路线">→</button></div></div>
+    <div class="route-picker-heading"><span id="routesLabel">游览路线</span><div class="route-scroll-tools"><button id="routeBack" aria-label="向左查看路线">←</button><button id="routeForward" aria-label="向右查看路线">→</button></div></div>
     <div id="routeTabs" class="route-tabs" role="tablist" aria-labelledby="routesLabel"></div>
   </nav>
   <div id="routePanel" role="tabpanel" aria-labelledby="route-tab-0" tabindex="0">
@@ -34,7 +40,7 @@
       <p id="dayNote" class="day-note"></p>
       <div id="plans"></div>
       <ol id="stops"></ol>
-      <div class="offline-box"><button id="downloadDay" disabled>↓ 保存本路线音频与配图</button><small id="downloadInfo" role="status">准备离线功能…</small></div>
+      <div class="offline-box"><button id="downloadDay" disabled>↓ 下载本路线</button><small id="downloadInfo" role="status">准备离线功能…</small></div>
     </aside>
     <section class="guide" id="guide" tabindex="-1" aria-label="景点讲解"></section>
   </main>
@@ -46,14 +52,14 @@
       <div class="play-controls"><button id="prev" class="round" aria-label="上一段"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5v14M18 5l-9 7 9 7Z"/></svg></button><button id="play" class="main-play" aria-label="播放讲解">▶</button><button id="next" class="round" aria-label="下一段"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 5v14M6 5l9 7-9 7Z"/></svg></button></div>
     </div>
     <div class="seek-row"><span id="elapsed">0:00</span><input type="range" id="seek" min="0" max="100" value="0" step="0.1" aria-label="播放进度"><span id="duration">0:00</span></div>
-    <div class="player-bottom"><small id="status" role="status" aria-live="polite">点击播放，开始聆听</small><div class="player-extra"><select id="speed" aria-label="播放语速"><option value="0.8">0.8×</option><option value="1" selected>1.0×</option><option value="1.2">1.2×</option><option value="1.5">1.5×</option></select><label class="continuous"><input id="auto" type="checkbox" checked>连播</label></div></div>
+    <div class="player-bottom"><small id="status" role="status" aria-live="polite">待播放</small><div class="player-extra"><select id="speed" aria-label="播放语速"><option value="0.8">0.8×</option><option value="1" selected>1.0×</option><option value="1.2">1.2×</option><option value="1.5">1.5×</option></select><label class="continuous"><input id="auto" type="checkbox" checked>连播</label></div></div>
   </footer>
   <dialog id="helpDialog" aria-labelledby="helpTitle">
     <button class="dialog-close" id="closeHelp" aria-label="关闭">×</button>
     <span class="eyebrow">使用指南</span><h2 id="helpTitle">戴上耳机，慢慢看。</h2>
     <p>选择路线和景点，再点击播放。讲解按看点分段，点击标题可以切换段落，也可以用播放器的上一段／下一段。</p>
     <p>讲解采用自然普通话合成语音，包含历史背景、人物故事和名作解读。支持暂停、拖动进度、调速和本站连播。切换景点时停止播放，到达下一站后再开始。</p>
-    <p>出发前连上 Wi-Fi，选择路线并点“保存本路线音频与配图”。同一设备和浏览器保存成功后，可离线打开文字、音频与配图；地图和资料链接需要网络。</p>
+    <p>出发前连上 Wi-Fi，点“下载全部”。约 92 MB，包含所有路线和备选方案的文字、音频与配图。显示“全部已下载”后即可离线使用；也可以单独下载本路线。下载中断或暂停后，再点一次会继续补齐。配图可点开放大，多个作品可横向滑动查看。</p>
     <p>iPhone：用 Safari 打开，点分享 → 添加到主屏幕。安卓：在 Chrome 菜单中选择添加到主屏幕／安装。添加后请在主屏幕打开的 App 中再确认离线保存状态。</p>
     <p>播放后可尝试锁屏继续听，具体取决于手机与浏览器。首次使用请在实际手机上试播；无需麦克风权限。不要在狭窄楼梯或过马路时操作屏幕。</p>
     <p id="offlineStatus">正在检查离线准备状态…</p>
@@ -65,8 +71,8 @@
     <p id="imageCredit" class="small"></p>
   </dialog>
   <script src="data.js?v=public-v1"></script>
-  <script src="image-manifest.js?v=art-v4"></script>
+  <script src="image-manifest.js?v=offline-v5"></script>
   <script src="audio-manifest.js?v=public-v1"></script>
-  <script src="app.js?v=art-v4"></script>
+  <script src="app.js?v=offline-v5"></script>
 </body>
 </html>

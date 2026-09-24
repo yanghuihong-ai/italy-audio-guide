@@ -24,13 +24,12 @@ button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible
 .brandmark { width: 29px; height: 29px; color: var(--accent); }
 .quiet { background: transparent; border: 0; padding: 12px 0 12px 16px; font-size: 13px; color: var(--muted); }
 .quiet span { margin-left: 5px; }
-.trip { padding: 44px 0 36px; }
+.trip { padding: 44px 0 36px; display: flex; align-items: flex-end; justify-content: space-between; gap: 28px; }
 .eyebrow { color: var(--muted); font-size: 12px; font-weight: 400; letter-spacing: .09em; }
 h1 { font: 400 48px/1.3 var(--serif); letter-spacing: -.025em; margin: 0 0 14px; }
 .trip p { margin: 0; color: var(--muted); font-size: 14px; }
 .route-picker { padding: 18px 0 16px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .route-picker-heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; font-size: 14px; font-weight: 550; }
-.route-picker-note { font-size: 11px; font-weight: 400; color: var(--muted); }
 .route-scroll-tools { display: flex; align-items: center; gap: 8px; }
 .route-scroll-tools button { width: 32px; height: 32px; border: 1px solid var(--line); border-radius: 50%; background: transparent; font-size: 15px; }
 .route-tabs { display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 8px; padding: 3px 2px 11px; scrollbar-width: thin; scrollbar-color: #cbc3b6 transparent; scroll-snap-type: x proximity; }
@@ -141,13 +140,12 @@ dialog p { font-size: 14px; line-height: 1.95; }
   .brand { gap: 9px; font-size: 16px; }
   .brandmark { width: 25px; height: 25px; }
   .quiet { font-size: 12px; }
-  .trip { padding: 20px 0 24px; }
+  .trip { padding: 20px 0 24px; flex-direction: column; align-items: stretch; gap: 22px; }
   .eyebrow { font-size: 11px; }
   h1 { font-size: 36px; margin: 0 0 12px; }
   .trip p { font-size: 13px; }
   .route-picker { padding: 14px 0 10px; }
   .route-picker-heading { margin-bottom: 10px; font-size: 13px; }
-  .route-picker-note { font-size: 10px; }
   .route-tabs { gap: 7px; padding-bottom: 9px; }
   .route-tab { flex: 0 0 auto; min-width: 108px; min-height: 72px; padding: 11px 16px; }
   .route-tab strong { font-size: 15px; }
@@ -234,3 +232,15 @@ dialog p { font-size: 14px; line-height: 1.95; }
   .artwork figcaption { font-size: 11px; }
   .image-dialog { padding: 14px; }
 }
+
+.offline-all { width: 290px; max-width: 100%; }
+.download-actions { display: flex; align-items: center; gap: 16px; }
+#downloadAll { min-height: 44px; padding: 10px 18px; border: 1px solid #c8c1b6; border-radius: 9px; background: var(--surface); font-size: 13px; }
+#downloadAll:hover { background: var(--tint); }
+#pauseDownload { border: 0; background: transparent; padding: 10px 0; color: var(--muted); font-size: 12px; }
+.offline-all small { display: block; margin-top: 8px; color: var(--muted); font-size: 11px; line-height: 1.6; }
+#downloadProgress { display: block; width: 100%; height: 4px; border: 0; border-radius: 4px; overflow: hidden; margin-top: 10px; accent-color: var(--accent); background: var(--line); }
+#downloadProgress::-webkit-progress-bar { background: var(--line); }
+#downloadProgress::-webkit-progress-value { background: var(--accent); }
+#downloadProgress::-moz-progress-bar { background: var(--accent); }
+[hidden] { display: none !important; }
