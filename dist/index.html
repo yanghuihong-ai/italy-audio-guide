@@ -7,7 +7,7 @@
   <meta name="description" content="跟着游览路线，用中文听懂意大利的艺术、建筑与城市。">
   <title>耳游意大利 · 随身中文导览</title>
   <link rel="icon" type="image/svg+xml" href="icon.svg">
-  <link rel="stylesheet" href="style.css?v=warm-v2">
+  <link rel="stylesheet" href="style.css?v=warm-v3">
   <link rel="apple-touch-icon" href="icon-192.png">
   <link rel="manifest" href="manifest.webmanifest">
 </head>
@@ -23,11 +23,11 @@
     <h1 id="welcome">边走，边听。</h1>
     <p>走近一件作品，也走进它的故事。</p>
   </section>
-  <div class="route-picker">
-    <label for="routeSelect">游览路线</label>
-    <div class="select-wrap"><select id="routeSelect" aria-label="选择游览路线"></select><span aria-hidden="true">⌄</span></div>
-    <span class="route-picker-note">58 个景点 · 中文语音</span>
-  </div>
+  <nav class="route-picker" aria-label="游览路线">
+    <div class="route-picker-heading"><span id="routesLabel">游览路线</span><span class="route-picker-note">58 个景点 · 中文语音</span></div>
+    <div id="routeTabs" class="route-tabs" role="tablist" aria-labelledby="routesLabel"></div>
+  </nav>
+  <div id="routePanel" role="tabpanel" aria-labelledby="route-tab-0" tabindex="0">
   <main>
     <aside class="route" aria-label="沿途景点">
       <div class="route-heading"><h2 id="city"></h2><span id="stopCount" class="count"></span></div>
@@ -38,6 +38,7 @@
     </aside>
     <section class="guide" id="guide" tabindex="-1" aria-label="景点讲解"></section>
   </main>
+  </div>
   <audio id="audio" preload="metadata"></audio>
   <footer class="player" aria-label="语音播放器">
     <div class="player-main">
@@ -60,6 +61,6 @@
   </dialog>
   <script src="data.js?v=public-v1"></script>
   <script src="audio-manifest.js?v=public-v1"></script>
-  <script src="app.js?v=warm-v2"></script>
+  <script src="app.js?v=warm-v3"></script>
 </body>
 </html>

@@ -28,12 +28,16 @@ button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible
 .eyebrow { color: var(--muted); font-size: 12px; font-weight: 400; letter-spacing: .09em; }
 h1 { font: 400 48px/1.3 var(--serif); letter-spacing: -.025em; margin: 0 0 14px; }
 .trip p { margin: 0; color: var(--muted); font-size: 14px; }
-.route-picker { display: flex; align-items: center; gap: 20px; padding: 16px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.route-picker > label { color: var(--muted); font-size: 13px; }
-.select-wrap { position: relative; min-width: 240px; max-width: 100%; }
-.select-wrap select { appearance: none; width: 100%; padding: 10px 36px 10px 14px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); font-size: 14px; cursor: pointer; }
-.select-wrap > span { pointer-events: none; position: absolute; right: 14px; top: 7px; color: var(--muted); }
-.route-picker-note { margin-left: auto; color: var(--muted); font-size: 12px; }
+.route-picker { padding: 17px 0 14px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.route-picker-heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; color: var(--muted); font-size: 12px; }
+.route-picker-note { font-size: 11px; }
+.route-tabs { display: flex; flex-wrap: wrap; gap: 5px; }
+.route-tab { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 10px; background: transparent; border: 0; border-radius: 8px; font-size: 13px; white-space: nowrap; }
+.route-tab > span { font-size: 10px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.route-tab:hover { background: #eeece5; }
+.route-tab.active { background: var(--tint); color: var(--accent); }
+.route-tab.active > span { color: var(--accent); }
+#routePanel:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 main { display: grid; grid-template-columns: 248px minmax(0, 1fr); gap: 68px; padding: 40px 0 210px; align-items: start; }
 .route { position: sticky; top: 28px; }
 .route-heading { display: flex; gap: 10px; align-items: center; justify-content: space-between; }
@@ -137,11 +141,12 @@ dialog p { font-size: 14px; line-height: 1.95; }
   .eyebrow { font-size: 11px; }
   h1 { font-size: 36px; margin: 0 0 12px; }
   .trip p { font-size: 13px; }
-  .route-picker { padding: 14px 0; gap: 14px; }
-  .route-picker > label { font-size: 12px; flex-shrink: 0; }
-  .select-wrap { min-width: 0; flex: 1; }
-  .select-wrap select { font-size: 13px; min-height: 44px; padding-left: 12px; }
-  .route-picker-note { display: none; }
+  .route-picker { padding: 14px 0 12px; }
+  .route-picker-heading { margin-bottom: 9px; font-size: 11px; }
+  .route-picker-note { font-size: 10px; }
+  .route-tabs { gap: 4px; }
+  .route-tab { flex: 0 0 calc((100% - 8px) / 3); gap: 5px; padding: 10px 3px; font-size: 12px; }
+  .route-tab > span { font-size: 9px; }
   main { display: block; padding: 23px 0 205px; }
   .route { position: static; }
   .route-heading h2 { font-size: 15px; }
